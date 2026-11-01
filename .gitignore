@@ -1,0 +1,13 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+Gemfile.lock
+vendor/
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
+
+# Medium export and import report (keep locally, not in the repo)
+medium-export/
+tools/migration_report.csv
