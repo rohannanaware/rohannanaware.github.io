@@ -1,0 +1,27 @@
+{% comment %}
+  Usage: {% include post-list.html posts=site.posts limit=6 %}
+{% endcomment %}
+{% assign shown = include.posts %}
+{% if include.limit %}{% assign shown = include.posts | slice: 0, include.limit %}{% endif %}
+<div class="cards">
+  {% for post in shown %}
+    <article class="card">
+      {% if post.cover %}
+        <a class="card-media" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+          <img src="{{ post.cover | relative_url }}" alt="" loading="lazy">
+        </a>
+      {% endif %}
+      <div class="card-body">
+        <p class="meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% for c in post.categories %}
+            {% assign s = site.data.sections | where: "key", c | first %}
+            {% if s %} &middot; <a href="{{ '/' | append: c | append: '/' | relative_url }}">{{ s.title }}</a>{% endif %}
+          {% endfor %}
+        </p>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="excerpt">{{ post.description | default: post.subtitle | default: post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>

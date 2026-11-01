@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-head">
+    <p class="meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% for c in page.categories %}
+        {% assign s = site.data.sections | where: "key", c | first %}
+        {% if s %} &middot; <a href="{{ '/' | append: c | append: '/' | relative_url }}">{{ s.title }}</a>{% endif %}
+      {% endfor %}
+      {% assign words = page.content | number_of_words %}
+      &middot; {{ words | divided_by: 220 | plus: 1 }} min read
+    </p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="lede">{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  {% if page.cover %}
+    <img class="post-cover" src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | default: page.title }}">
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.medium_url %}
+    <p class="note">Originally published on <a href="{{ page.medium_url }}">Medium</a>.</p>
+  {% endif %}
+
+  <p class="back"><a href="{{ '/' | append: page.categories.first | append: '/' | relative_url }}">&larr; More in this section</a></p>
+</article>

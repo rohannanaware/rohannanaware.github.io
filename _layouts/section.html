@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% assign s = site.data.sections | where: "key", page.section | first %}
+{% assign section_posts = site.categories[page.section] %}
+<section class="section-head">
+  <h1><span aria-hidden="true">{{ s.icon }}</span> {{ s.title }}</h1>
+  <p class="lede">{{ s.description }}</p>
+  {{ content }}
+</section>
+
+{% if section_posts and section_posts.size > 0 %}
+  {% include post-list.html posts=section_posts %}
+{% else %}
+  <p class="empty">Nothing here yet. Posts are on their way.</p>
+{% endif %}

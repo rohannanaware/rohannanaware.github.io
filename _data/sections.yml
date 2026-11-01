@@ -1,0 +1,36 @@
+# Single source of truth for sections. Drives the nav, home page tiles and
+# each section page. To add a section: add an entry here and create a folder
+# with an index.md (copy any existing one). `key` is the category name used
+# in post front matter.
+- key: hiking
+  title: Hiking
+  icon: "🥾"
+  description: Trails, treks and the stories that came with them.
+- key: travel
+  title: Travel
+  icon: "🧳"
+  description: Places, routes and notes from the road.
+- key: data-science
+  title: Data Science
+  icon: "📊"
+  description: Analyses, models and notebooks.
+- key: coding
+  title: Coding
+  icon: "💻"
+  description: Code, tools and lessons from building things.
+- key: linux
+  title: Linux
+  icon: "🐧"
+  description: Setups, tweaks and command-line notes.
+- key: raspberry-pi
+  title: Raspberry Pi
+  icon: "🍓"
+  description: Small-board projects and home builds.
+- key: thoughts
+  title: Thoughts
+  icon: "💭"
+  description: Essays, opinions and half-formed ideas.
+- key: journals
+  title: Journals
+  icon: "📓"
+  description: Personal entries, stories and reflections.

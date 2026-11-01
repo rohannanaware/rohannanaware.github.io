@@ -1,0 +1,42 @@
+# ---- Edit these ----------------------------------------------------------
+title: Rohan
+tagline: Hiking, travel, data, code, and the occasional thought.
+description: >-
+  Hiking and travel stories, data science, coding, Linux and Raspberry Pi
+  projects, plus thoughts and journals.
+author: Rohan
+
+url: "https://rohannanaware.github.io"
+baseurl: ""
+
+github_username: rohannanaware
+# --------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# /hiking/my-post-title/
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
+  - tools
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
