@@ -34,3 +34,11 @@
   title: Journals
   icon: "📓"
   description: Personal entries, stories and reflections.
+- key: drawing
+  title: Drawing
+  icon: "✏️"
+  description: Sketches, studies and what I learned drawing them.
+- key: stories
+  title: Stories
+  icon: "📖"
+  description: Fiction and short stories.

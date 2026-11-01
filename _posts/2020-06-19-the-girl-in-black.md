@@ -3,7 +3,7 @@ title: "The Girl in Black"
 subtitle: "The clock read 01:30am\n\"Time for the stroll in the park\", I thought, before shutting in my laptop, pulling out the earphones, connecting…"
 description: "The clock read 01:30am\n\"Time for the stroll in the park\", I thought, before shutting in my laptop, pulling out the earphones, connecting…"
 date: 2020-06-19
-categories: [hiking]
+categories: [stories]
 cover: /assets/images/hiking/the-girl-in-black/image-01.jpg
 medium_url: "https://medium.com/@rohannanaware/the-girl-in-black-2edee8093133"
 ---

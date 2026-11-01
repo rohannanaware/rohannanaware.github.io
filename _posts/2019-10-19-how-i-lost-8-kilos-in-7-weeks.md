@@ -3,7 +3,7 @@ title: "How I lost 8 kilos in 7 weeks…"
 subtitle: "I recenty wrote an article about what I learnt while losing 8 kilos in 7 weeks. The intention of that article was to demystify the theory…"
 description: "I recenty wrote an article about what I learnt while losing 8 kilos in 7 weeks. The intention of that article was to demystify the theory…"
 date: 2019-10-19
-categories: [travel]
+categories: [fitness]
 cover: /assets/images/travel/how-i-lost-8-kilos-in-7-weeks/image-01.jpg
 medium_url: "https://medium.com/@rohannanaware/how-i-lost-8-kilos-in-7-weeks-e3150e34e96b"
 ---

@@ -3,7 +3,7 @@ title: "Lessons learnt while drawing Violet Evergarden"
 subtitle: "Every piece of work, be it art or something else, has a soul in it. Discarding it midway would mean abandoning that nascent soul that you…"
 description: "Every piece of work, be it art or something else, has a soul in it. Discarding it midway would mean abandoning that nascent soul that you…"
 date: 2020-01-02
-categories: [hiking]
+categories: [drawing]
 cover: /assets/images/hiking/lessons-learnt-while-drawing-violet-evergarden/image-01.jpg
 medium_url: "https://medium.com/@rohannanaware/lessons-learnt-while-drawing-violet-evergarden-6f41da9317c6"
 ---

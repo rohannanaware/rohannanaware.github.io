@@ -3,7 +3,7 @@ title: "The death of a writer"
 subtitle: "Phoenix, amazing birds they are, they can live, burn, die and be born again. The offspring carries forward the baton from it’s…"
 description: "Phoenix, amazing birds they are, they can live, burn, die and be born again. The offspring carries forward the baton from it’s…"
 date: 2020-12-20
-categories: [hiking]
+categories: [thoughts]
 cover: /assets/images/hiking/the-death-of-a-writer/image-01.jpg
 medium_url: "https://medium.com/@rohannanaware/the-death-of-a-writer-d197f570ff7a"
 ---

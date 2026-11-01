@@ -1,5 +1,5 @@
 ---
-title: "What I learnt in my first unplanned solo trek…"
+title: "What I learnt in my first unplanned solo trip..."
 subtitle: "“As you travel solo, being totally responsible for yourself, it’s inevitable that you will discover just how capable you are!”"
 description: "“As you travel solo, being totally responsible for yourself, it’s inevitable that you will discover just how capable you are!”"
 date: 2019-10-21

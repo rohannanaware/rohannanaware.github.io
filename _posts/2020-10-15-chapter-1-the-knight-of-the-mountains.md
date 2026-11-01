@@ -3,7 +3,7 @@ title: "Chapter 1 : The Knight of the Mountains"
 subtitle: "“In 20 years, all primates but humans will be extinct, poaching, habitat destruction, global warming”, the narrator was a Dodo bird…"
 description: "“In 20 years, all primates but humans will be extinct, poaching, habitat destruction, global warming”, the narrator was a Dodo bird…"
 date: 2020-10-15
-categories: [hiking]
+categories: [stories]
 cover: /assets/images/hiking/chapter-1-the-knight-of-the-mountains/image-01.jpg
 medium_url: "https://medium.com/@rohannanaware/chapter-1-the-knight-of-the-mountains-1a1099d1a05a"
 ---

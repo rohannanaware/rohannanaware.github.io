@@ -3,7 +3,7 @@ title: "What I learnt while losing 8 kilos of fat in 7 weeks…"
 subtitle: "Tldr — Eat less, move more, meditate"
 description: "Tldr — Eat less, move more, meditate"
 date: 2019-09-07
-categories: [thoughts]
+categories: [fitness]
 cover: /assets/images/thoughts/what-i-learnt-while-losing-8-kilos-of-fat-in-7-weeks/image-01.jpg
 medium_url: "https://medium.com/@rohannanaware/what-i-learnt-while-losing-8-kilos-of-fat-in-7-weeks-d615f4c569b8"
 ---

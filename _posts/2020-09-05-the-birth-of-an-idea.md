@@ -3,7 +3,7 @@ title: "The birth of an idea"
 subtitle: "The beauty of every natural phenomenon is that it’s conceived in a gradual yet unsteady fashion. A butterfly emerging from a caterpillar, a…"
 description: "The beauty of every natural phenomenon is that it’s conceived in a gradual yet unsteady fashion. A butterfly emerging from a caterpillar, a…"
 date: 2020-09-05
-categories: [hiking]
+categories: [thoughts]
 cover: /assets/images/hiking/the-birth-of-an-idea/image-01.jpg
 medium_url: "https://medium.com/@rohannanaware/the-birth-of-an-idea-e1b1d3a6884e"
 ---
