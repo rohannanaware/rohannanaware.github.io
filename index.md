@@ -2,4 +2,5 @@
 layout: home
 title: Home
 ---
-Welcome. This is where my hiking and travel stories, data science work, code, Linux and Raspberry Pi projects, and personal writing now live, all in one place.
+Hey there! 
+This is where I plan to write about stuff I like, all in one place! Do reach out if anything interests you!
